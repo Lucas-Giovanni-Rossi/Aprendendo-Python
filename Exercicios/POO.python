@@ -1,0 +1,120 @@
+Fase 00
+    # Bibliografia recomendada:
+        Documentação so site oficial:= 
+            documentation>non english docs
+        Livros de python:
+            object-oriented pyhton
+            python 3 - the comprehensive guide
+        Filme:
+            Jogo da Imitação
+        Autores importantes:
+            Alan M. Turing - (Pai da computação)
+            Edsger Wybe Dijkstra - (Discurso em seu premio turing: Programar Humilde)
+            Kristen Nygaard - (Pai da OOP) - Criou a linguagem "Simula"
+            Alan Curts Kay - (Evoluiu muito a OOP) - (Criador do Laptoop?) - (Colaborou para criação de interfase grãfica)- Criou a linguagem Smalltalk
+            Guido Van Rossum - Criados da linguagem Python
+        Reconhecimentos:
+            Prêmio turing
+        POO possui 4 pilares:
+            Abstração;      (Capacidade de simplificar)
+            Encapsulamento; (Proteção)
+            Herança;        (Conceito de Hierarquia)
+            Polimorfismo.   (Up em tudo)
+
+Fase 01
+    #POO = Programação Orientada a Obejtos // OOP = Object Oriented Programming
+        Representar elementos do mundo real em sistemas computacionais.
+        elementos = Object
+    #OOAD - Object Oriented Analysis and Design
+    #UML - Unified Modeling Language
+
+    # 1950 - Linguagem de baixo nivel
+    # 1955 - Linguagem lineares
+        GOTO - forçava desvio
+        * Edsger Wybe Dijkstra - indgnado com lingugagens contribuiu com evolução das linguagens seguintes
+    # 1960 - Linguagens Estruturadas
+        ALGOrithmic language
+
+        Crise do sofware de 1960
+            "A necessidade é a mãe da invenção" - Platão
+            "É preciso ter o caos dentro de si para dar à luz um estrela dançante" - Nietzsche
+    # 1965 - Linguagem Modulares
+        Em vez de um codão tem varios pequenos codigos e 1 principal.
+    # 1970 - Linguagens Orientadas a Obejtos
+        * Kristen Nygaard - Patenteo o termo "Object"
+        * Alan Curts Kay - Evento Dynanook na Xerox
+
+Fase 02        
+    #COMERNada 
+        Confiável
+            O isolamento entre partes gera algo mais seguro
+            Ao alterar uma das partes, nenhuma outra é afetada
+        Oportuno
+            Ao dividir tudo em partes, cada uma delas pode ser desenvolvida em paralelo.
+        Manutenível
+            Atualizar é mais fácil, Uma pequena alteração vai beneficiar todas partes relacionadas.
+        Extensivel
+            O sistema não é estatico. Tudo deve mudar e crescer para permanecer útil.
+        Reutilizável
+            Objetos que foram criados para um sistema podem ser aproveitados para outros sistemas.
+        Natural
+            Mais fácil de entender. Maior atenção às funcionalidades do que aos detalhes de implementação.
+
+Fase 03
+    # Classes
+        Formato de caracteristicas, modelos para criar objetos.
+        1. Nome da classe (Nome)
+        2. Atributo  (Caracteristicas)
+        3. Métodos (Utilidades)
+    # Instancia = transição/construindo/forjar
+    # Object
+        "O objeto é a instância de uma classe" Guanabara
+        "Objeto é uma coisa material ou abstrata que é feita a partir de um modelo e pode ser descrita por meios das suas caracteristicas, comportamentos e estado atual" Guanabara
+    
+Fase 04 a 06
+    Mão na massa
+
+Fase 07
+    # Herança (parte 1):
+        Itens superiores são os ancestrais
+        itens decendentes herdam caracteristicas ancestrais
+
+        # Vantagens:
+            Reutilizáção de código
+            Organização Hierárquica
+            Facilidade de manutenção
+            Extensibilidade
+            Suporte a Polimorfismo
+
+Fase 08
+    # Abstração:
+        ignorar o irrelevante e focar no essencial
+        Exemplo é não saber como hardware do computador funciona mas isso não impede de programar
+            (interfase pública)
+    # Vantagens:
+        Maior legibilidade
+        Padronização
+        Simplificação
+        Segurança
+
+Fase 09
+    Mão na massa
+
+Fase 10
+    Encapsulamento: Parte 1
+        Visibilidade
+            public + == sem nada na frente
+            protect # == _ na frente
+            privid - == __ na frente
+        Consenting adult == Liberdade com responsabilidade
+
+Fase 11
+    Parte 2
+    Acesso a dados: 
+        getters e setteers
+        decorador @property
+    
+Fase 12
+    Mão na massa
+    
+    
