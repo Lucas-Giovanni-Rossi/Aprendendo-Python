@@ -14,24 +14,24 @@ Anotações de estudo organizadas por fase.
 
 ### Autores importantes
 
-| Nome | Anotações |
-| --- | --- |
-| Alan M. Turing | Pai da computação. |
-| Edsger Wybe Dijkstra | Discurso no Prêmio Turing: “Programar Humilde”. |
-| Kristen Nygaard | Pai da OOP; criou a linguagem Simula. |
-| Alan Curtis Kay | Contribuiu para a evolução da OOP e para a criação da interface gráfica; criou a linguagem Smalltalk. Criador do laptop? |
-| Guido van Rossum | Criador da linguagem Python. |
+| Nome                 | Anotações                                                                                                                   |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Alan M. Turing       | Pai da computação.                                                                                                          |
+| Edsger Wybe Dijkstra | Discurso no Prêmio Turing: “Programar Humilde”.                                                                            |
+| Kristen Nygaard      | Pai da OOP; criou a linguagem Simula.                                                                                         |
+| Alan Curtis Kay      | Contribuiu para a evolução da OOP e para a criação da interface gráfica; criou a linguagem Smalltalk. Criador do laptop? |
+| Guido van Rossum     | Criador da linguagem Python.                                                                                                  |
 
 **Reconhecimento em destaque:** Prêmio Turing.
 
 ### Os quatro pilares da POO
 
-| Pilar | Ideia principal |
-| --- | --- |
-| Abstração | Capacidade de simplificar. |
-| Encapsulamento | Proteção. |
-| Herança | Conceito de hierarquia. |
-| Polimorfismo | “Up em tudo”. |
+| Pilar          | Ideia principal            |
+| -------------- | -------------------------- |
+| Abstração    | Capacidade de simplificar. |
+| Encapsulamento | Proteção.                |
+| Herança       | Conceito de hierarquia.    |
+| Polimorfismo   | “Up em tudo”.            |
 
 ## Fase 01 — Introdução e evolução das linguagens
 
@@ -79,14 +79,14 @@ Em vez de um código grande, existem vários códigos menores e um principal.
 
 **Mnemônico:** COMERNada.
 
-| Característica | Benefício |
-| --- | --- |
-| **Confiável** | O isolamento entre partes gera algo mais seguro. Ao alterar uma das partes, nenhuma outra é afetada. |
-| **Oportuno** | Ao dividir tudo em partes, cada uma delas pode ser desenvolvida em paralelo. |
-| **Manutenível** | Atualizar é mais fácil. Uma pequena alteração beneficia todas as partes relacionadas. |
-| **Extensível** | O sistema não é estático. Tudo deve mudar e crescer para permanecer útil. |
-| **Reutilizável** | Objetos criados para um sistema podem ser aproveitados em outros sistemas. |
-| **Natural** | Mais fácil de entender, com maior atenção às funcionalidades do que aos detalhes de implementação. |
+| Característica         | Benefício                                                                                               |
+| ----------------------- | -------------------------------------------------------------------------------------------------------- |
+| **Confiável**    | O isolamento entre partes gera algo mais seguro. Ao alterar uma das partes, nenhuma outra é afetada.    |
+| **Oportuno**      | Ao dividir tudo em partes, cada uma delas pode ser desenvolvida em paralelo.                             |
+| **Manutenível**  | Atualizar é mais fácil. Uma pequena alteração beneficia todas as partes relacionadas.                |
+| **Extensível**   | O sistema não é estático. Tudo deve mudar e crescer para permanecer útil.                            |
+| **Reutilizável** | Objetos criados para um sistema podem ser aproveitados em outros sistemas.                               |
+| **Natural**       | Mais fácil de entender, com maior atenção às funcionalidades do que aos detalhes de implementação. |
 
 ## Fase 03 — Classes, instâncias e objetos
 
@@ -150,11 +150,11 @@ Atividades práticas.
 
 ### Visibilidade
 
-| Visibilidade | Símbolo | Convenção em Python |
-| --- | --- | --- |
-| Pública (*public*) | `+` | Sem prefixo. |
-| Protegida (*protected*) | `#` | Um sublinhado: `_atributo`. |
-| Privada (*private*) | `-` | Dois sublinhados: `__atributo`. |
+| Visibilidade              | Símbolo | Convenção em Python             |
+| ------------------------- | -------- | --------------------------------- |
+| Pública (*public*)     | `+`    | Sem prefixo.                      |
+| Protegida (*protected*) | `#`    | Um sublinhado: `_atributo`.     |
+| Privada (*private*)     | `-`    | Dois sublinhados: `__atributo`. |
 
 **“Consenting adults”:** liberdade com responsabilidade.
 
@@ -168,13 +168,14 @@ Atividades práticas.
 ## Fase 12 — Mão na massa
 
 ### Desafios
-- [ ] Implemente um termostato orientado a objeto 
-   - Minimo 16º  e Máximo de 30º
-   - Inicial a 24º
-   - Incremento de temperatudo de 0.5º
-- [ ] Simular um diário secreto orientado a objetos
+
+- [X] Implemente um termostato orientado a objeto
+  - Minimo 16º  e Máximo de 30º
+  - Inicial a 24º
+  - Incremento de temperatudo de 0.5º
+- [X] Simular um diário secreto orientado a objetos
   - So consegue ler com senha
-- [ ] Crie uma classe de hash SHA256 de uma senha
+- [X] Crie uma classe de hash SHA256 de uma senha
 - [ ] Crie um classe que represente um retângulo pelas medidas e área
 - [ ] Aprimore o exercicio da ContaBancária, aplicando conceitos de encapsulamento.
 - [ ] Implemente a seguinte estrutura de diagrama de classes
