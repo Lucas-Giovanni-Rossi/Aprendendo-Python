@@ -176,7 +176,7 @@ Atividades práticas.
 - [X] Simular um diário secreto orientado a objetos
   - So consegue ler com senha
 - [X] Crie uma classe de hash SHA256 de uma senha
-- [ ] Crie um classe que represente um retângulo pelas medidas e área
+- [X] Crie um classe que represente um retângulo pelas medidas e área
 - [ ] Aprimore o exercicio da ContaBancária, aplicando conceitos de encapsulamento.
 - [ ] Implemente a seguinte estrutura de diagrama de classes
   - Cria "pessoa" como classe abstrata e classe filho como "aluno"
